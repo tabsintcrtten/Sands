@@ -10,22 +10,24 @@
         <script src = 'sandsJS--Message.js'></script>
     </head>
     <body>
-        <div id = 'FilePath'>
-            <select id = 'protocol' name = 'protocol'>
-                <option value = 'file'>file://</option>
-                <option value = 'https'>https://</option>
-            </select>
-            <input type = 'text' id = 'FilePathText'>
-            <input type = 'file' value = 'chose' accept = '\.png'>
-        </div>
-        <canvas id = 'canvas'></canvas>
-        <button id = 'update'>Update</button>
-        <div id = 'messages'>
-            <div>
-                work:<span id = 'WorkText'>None</span>
+        <div id = 'LeftSection'>
+            <div id = 'FilePath'>
+                <select id = 'protocol' name = 'protocol'>
+                    <option value = 'file'>file://</option>
+                    <option value = 'https'>https://</option>
+                </select>
+                <input type = 'text' id = 'FilePathText'>
+                <input type = 'file' value = 'chose' accept = '\.png'>
             </div>
-            <div>
-                message:<span id = 'MessageText'>None</span>
+            <canvas id = 'canvas'></canvas>
+            <button id = 'update'>Update</button>
+            <div id = 'messages'>
+                <div>
+                    work:<span id = 'WorkText'>None</span>
+                </div>
+                <div>
+                    message:<span id = 'MessageText'>None</span>
+                </div>
             </div>
         </div>
     </body>
