@@ -10,26 +10,35 @@
         <script src = 'sandsJS--Message.js'></script>
     </head>
     <body>
-        <div id = 'LeftSection'>
-            <div id = 'FilePath'>
-                <select id = 'protocol' name = 'protocol'>
-                    <option value = 'file'>file://</option>
-                    <option value = 'https'>https://</option>
-                </select>
-                <input type = 'text' id = 'FilePathText'>
-                <input type = 'file' value = 'chose' accept = '\.png'>
+        <head>
+            <h1>sandsJS--Canvas</h1>
+        </head>
+        <div id = 'ApplicationCodePage'>
+            <div id = 'LeftSection'>
+                <div id = 'FilePath'>
+                    <select id = 'protocol' name = 'protocol'>
+                        <option value = 'file'>file://</option>
+                        <option value = 'https'>https://</option>
+                    </select>
+                    <input type = 'text' id = 'FilePathText'>
+                    <input type = 'file' value = 'chose' accept = '\.png'>
+                </div>
+                <canvas id = 'canvas'></canvas>
+                <button id = 'update'>Update</button>
+                <div id = 'messages'>
+                    <div>
+                        work:<span id = 'WorkText'>None</span>
+                    </div>
+                    <div>
+                        message:<span id = 'MessageText'>None</span>
+                    </div>
+                </div>
             </div>
-            <canvas id = 'canvas'></canvas>
-            <button id = 'update'>Update</button>
-            <div id = 'messages'>
-                <div>
-                    work:<span id = 'WorkText'>None</span>
-                </div>
-                <div>
-                    message:<span id = 'MessageText'>None</span>
-                </div>
+            <div id = 'RightSection'>
+                <fieldset id = 'save'>
+                    <legend>save</legend>
+                </fieldset>
             </div>
         </div>
-        <div id = 'RightSection'></div>
     </body>
 </html>
