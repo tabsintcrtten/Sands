@@ -6,5 +6,7 @@ canvas{
 }
 #LeftSection,#RightSection{
     display: table-cell;
-
+}
+#savebuttondiv{
+    text-align: right;
 }
