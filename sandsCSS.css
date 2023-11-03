@@ -1,3 +1,10 @@
 canvas{
     border: 1px solid black;
 }
+#ApplicationCodePage{
+    display: table table-row;
+}
+#LeftSection,#RightSection{
+    display: table-cell;
+
+}
