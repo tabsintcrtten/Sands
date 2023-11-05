@@ -21,3 +21,10 @@ th{
 th td{
     border:2px solid green;
 }
+h1{
+    text-align:center;
+    color:#0f0;
+}
+footer{
+    text-align:left;
+}
